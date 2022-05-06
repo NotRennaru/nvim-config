@@ -42,11 +42,26 @@ Settings.config = {
   -- completeopt = "menuone, noslect"
 }
 
+Settings.loadMaps = function()
+  local map = vim.api.nvim_set_keymap
+  local opts = {
+    silent = true,
+    noremap = true,
+  }
+
+  map("n", "<C-p>", ":NvimTreeToggle <CR>", opts)
+
+  vim.g.mapleader = " "
+end
+
 Settings.loadSettings = function()
   -- Config
   for i, v in pairs(Settings.config) do
     vim.opt[i] = v
   end
+
+  -- Load Maps
+  Settings.loadMaps()
 
   -- Color Scheme
   vim.cmd[[colorscheme tokyonight]]
