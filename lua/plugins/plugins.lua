@@ -5,6 +5,13 @@ return {
   { "folke/tokyonight.nvim" },
   { "lukas-reineke/indent-blankline.nvim" },
   { "jiangmiao/auto-pairs" },
+  { 
+    "nvim-treesitter/nvim-treesitter", 
+    run = ":TSUpdate",
+    config = function()
+      require('plugins.config.treesitter')
+    end
+  },
   -- Neovim Tree
   { 
     "kyazdani42/nvim-web-devicons", 

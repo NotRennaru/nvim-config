@@ -3,7 +3,6 @@ local Settings = {}
 Settings.config = {
   -- Performance
   lazyredraw = true,
-  shell = "zsh",
   shadafile = "NONE",
   -- Colors
   termguicolors = true,
