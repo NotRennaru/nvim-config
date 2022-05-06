@@ -5,7 +5,7 @@
 - [Documentation](https://github.com/NotRennaru/nvim-config/blob/main/Documentation.md)
 
 ## Inspired
-- [NvChas](https://github.com/NvChad/NvChad)
+- [NvChad](https://github.com/NvChad/NvChad)
 - [LunarVim](https://github.com/LunarVim/LunarVim)
 
 ## License

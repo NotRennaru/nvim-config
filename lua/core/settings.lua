@@ -50,6 +50,8 @@ Settings.loadMaps = function()
   }
 
   map("n", "<C-p>", ":NvimTreeToggle <CR>", opts)
+  map('n', '<C-n>', ':Telescope live_grep <CR>', opts)
+  map('n', '<C-f>', ':Telescope find_files <CR>', opts)
 
   vim.g.mapleader = " "
 end
