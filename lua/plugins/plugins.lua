@@ -12,6 +12,12 @@ return {
       require('plugins.config.treesitter')
     end
   },
+  { 
+    "nvim-lualine/lualine.nvim",
+    config = function()
+      require('lualine').setup {}
+    end
+  },
   -- Neovim Tree
   { 
     "kyazdani42/nvim-web-devicons", 
