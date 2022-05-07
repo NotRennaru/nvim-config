@@ -36,6 +36,7 @@ Settings.config = {
   showmode = false,
   laststatus = 3,
   pumheight = 6,
+  updatetime = 300,
   -- splitright = true,
   -- splitbelow = true,
   -- completeopt = "menuone, noslect"
