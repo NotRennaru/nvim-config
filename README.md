@@ -4,7 +4,7 @@
 ## Useful links
 - [Documentation](https://github.com/NotRennaru/nvim-config/blob/main/Documentation.md)
 
-## Inspired
+## Acknowledgements
 - [NvChad](https://github.com/NvChad/NvChad)
 - [LunarVim](https://github.com/LunarVim/LunarVim)
 
